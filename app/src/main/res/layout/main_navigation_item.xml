@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="16dp"
+            android:alpha="0.54"
+            android:src="@drawable/address" />
+
+        <TextView
+            android:id="@+id/menu_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:alpha=".87"
+            android:layout_gravity="center"
+            android:text="Address"
+            android:layout_marginLeft="8dp"
+            android:gravity="left"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

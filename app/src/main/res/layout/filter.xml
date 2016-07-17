@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:gravity="center"
+            android:text="Filter"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:text="Hospital type"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <CheckBox
+            android:id="@+id/publi"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:checked="true"
+            android:text="Public"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/privat"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:checked="true"
+            android:text="Private"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:text="Care type"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <CheckBox
+            android:id="@+id/hos"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:checked="true"
+            android:text="Hospital"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/med"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:checked="true"
+            android:text="Medical College"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/clinic"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:checked="true"
+            android:text="Clinic"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:text="Medicine type"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <CheckBox
+            android:id="@+id/allo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:checked="true"
+            android:text="Allopathic"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/ayurv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:checked="true"
+            android:text="Ayurvedic"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/ayush"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:checked="true"
+            android:text="Ayush"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/homeo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:checked="true"
+            android:text="Homeopathy"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/neuro"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:checked="true"
+            android:text="Naturopathy"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/unani"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:checked="true"
+            android:text="Unani"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/yoga"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:checked="true"
+            android:text="Yoga"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:text="Apply"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

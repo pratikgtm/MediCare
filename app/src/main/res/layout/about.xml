@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#808080"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/textView_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="65dp"
+        android:layout_weight="60"
+        android:text="@string/copyright"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="28dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#8f8f8f" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#8f8f8f" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="25"
+            android:text="Share :"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/share_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/share" />
+    </LinearLayout>
+</LinearLayout>

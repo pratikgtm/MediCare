@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.medihelp.Hospitals" >
+
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="10"
+        android:title="search"
+        android:icon="@drawable/search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/filter"
+        android:orderInCategory="10"
+        android:title="filter"
+        android:icon="@drawable/filter"
+        app:showAsAction="always" />
+            
+</menu>

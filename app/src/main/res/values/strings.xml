@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MediCare</string>
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">close drawer</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="copyright">© MediCare V1.1\n\nBy:\nArunim Chopra\nPratik Goutam</string>
+
+</resources>
